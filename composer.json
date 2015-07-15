@@ -1,0 +1,29 @@
+{
+    "name": "riverslei/baidu-pusher",
+	"description": "基于百度php sdk v3.0.0开发的消息推送。",
+	"type": "library",
+	"keywords": [
+	   "laravel5",
+	   "pusher",
+	   "baidu push",
+	   "push sdk",
+	   "百度消息推送",
+	   "laravel 消息推送",
+	   "laravel push sdk"
+  	],
+  	"license": "MIT",
+  	"authors": [{
+        "name": "helei112g",
+        "email": "helei5200@126.com"
+    }],
+    "require": {
+        "php": ">=5.5.9"
+  	},
+  	"autoload": {
+        "psr-4": {
+            "Riverslei\\Pusher\\": "src/"
+        }
+    },
+  	"minimum-stability": "dev",
+  	"prefer-stable": true
+}
