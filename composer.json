@@ -3,8 +3,8 @@
 	"description": "基于百度php sdk v3.0.0开发的消息推送。",
 	"type": "library",
 	"keywords": [
-	   "laravel5",
-	   "pusher",
+	   "laravel baidu push",
+	   "消息推送",
 	   "baidu push",
 	   "push sdk",
 	   "百度消息推送",
