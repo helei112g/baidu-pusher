@@ -1,17 +1,17 @@
 # 概述
-基于百度消息推送php SDK V3.0.0版本
-laravel 版本是5.1.*
-php > 5.5.9
+* baidu push sdk: 3.0.0
+* laravel: 5.1.*
+* php > 5.5.9
 
 # 安装
-1. 在composer.json中配置
+* 在composer.json中配置
 ```composer
     "require": {
         "riverslei/baidu-pusher": "~1.0"
     },
 ```
-2. 执行 `composer update`
-3. 安装完成后，在 `config\app.php` 中设置服务提供者
+* 执行 `composer update`
+* 安装完成后，在 `config\app.php` 中设置服务提供者
 ```php
 'providers' => [
   Riverslei\Pusher\PusherServiceProvider::class,
@@ -25,7 +25,7 @@ php > 5.5.9
   'Pusher'    => Riverslei\Pusher\Pusher::class,
 ]
 ```
-4. 生成相关的配置文件 `php artisan vendor:publish --provider=Riverslei\Pusher\PusherServiceProvider`
+* 生成相关的配置文件 `php artisan vendor:publish --provider=Riverslei\Pusher\PusherServiceProvider`
 
 # 测试
 为了检测安装的结果是否可正常使用。可用一下代码进行测试
