@@ -1,6 +1,6 @@
 {
     "name": "riverslei/baidu-pusher",
-	"description": "基于百度php sdk v3.0.0开发的消息推送。",
+	"description": "在laravel5中基于百度php sdk v3.0.0开发的消息推送。",
 	"type": "library",
 	"keywords": [
 	   "laravel baidu push",
