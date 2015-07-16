@@ -26,9 +26,9 @@ class BaseSDK
      * 定义异常类型
      */
     const ERR_UNKNOWN = '\Exception';
-    const ERR_CLIENT = 'ClientException';
-    const ERR_NET = 'HttpException';
-    const ERR_SERVER = 'ServerException';
+    const ERR_CLIENT = 'Riverslei\Pusher\Libary\ClientException';
+    const ERR_NET = 'Riverslei\Pusher\Libary\HttpException';
+    const ERR_SERVER = 'Riverslei\Pusher\Libary\ServerException';
     
     static protected $fieldNumber = array (
         'type' => 'number', 
