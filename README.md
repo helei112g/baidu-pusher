@@ -3,6 +3,9 @@
 * laravel: 5.1.*
 * php > 5.5.9
 
+# 更新日志
+2015/07/16 修改BaseSDK文件中的异常
+
 # 安装
 * 在composer.json中配置
 ```composer
