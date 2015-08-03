@@ -28,7 +28,11 @@ class PusherServiceProvider extends ServiceProvider
         $this->mergeConfigFrom($configPath, 'pusher');
         
         $this->app->singleton('pusher', function(){
-            return new BaiduPusher();
+            $baidu = new BaiduPusher();
+            $baidu->setApiKey(config('pusher.default_apiKey'));
+            $baidu->setSecretKey(config('pusher.default_secretkey'));
+            $baidu->setDeviceType(config('pusher.default_devicetype'));
+            return $baidu;
         });
         
         $this->app->alias('pusher', 'Riverslei\Pusher\BaiduPusher');
